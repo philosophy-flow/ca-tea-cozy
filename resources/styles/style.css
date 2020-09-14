@@ -1,0 +1,129 @@
+html {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+
+h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+h5 {
+  font-size: 0.9rem;
+}
+
+/* HEADER */
+
+header {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  border-bottom: 1px solid seashell;
+  height: 69px;
+  background-color: black;
+  justify-content: space-between;
+}
+
+header img {
+  height: 50px;
+  margin: 9.5px 10px;
+}
+
+nav ul {
+  margin: 23.5px 10px;
+}
+
+nav li {
+  display: inline;
+  text-decoration: underline;
+  font-size: 0.95rem;
+}
+
+nav a {
+  color: seashell;
+}
+
+/* MISSION */
+
+#mission {
+  height: 700px;
+  width: 1200px;
+  background-image: url("../images/tc-background.jpg");
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+#mission-text {
+  text-align: center;
+  background-color: black;
+  width: 100%;
+  padding: 10px;
+}
+
+/* TEAS */
+
+#tea {
+  width: 1000px;
+  margin: 75px auto;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#pics-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pics {
+  width: 300px;
+  height: 200px;
+  padding: 15px;
+}
+
+
+/* LOCATIONS */
+
+#locations {
+  width: 1200px;
+  height: 600px;
+  margin: 75px auto;
+  background-image: url("../images/tc-locations.jpg");
+}
+
+#locations-text {
+  width: 100%;
+  text-align: center;
+  padding-top: 40px;
+  margin-bottom: 15px;
+}
+
+#locations-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loc-box {
+  width: 300px;
+  height: 300px;
+  margin: 15px 40px;
+  line-height: 3.2;
+  background-color: black;
+
+  text-align: center;
+}
